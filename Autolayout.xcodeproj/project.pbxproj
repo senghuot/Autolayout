@@ -99,13 +99,9 @@
 		E6E61E0E1CAE32C3008298B6 /* Autolayout */ = {
 			isa = PBXGroup;
 			children = (
-				E6E61E0F1CAE32C3008298B6 /* AppDelegate.swift */,
+				E6E61E401CAE32D1008298B6 /* SupportingFiles */,
 				E6E61E111CAE32C3008298B6 /* ViewController.swift */,
 				E6E61E131CAE32C3008298B6 /* Main.storyboard */,
-				E6E61E191CAE32C3008298B6 /* Assets.xcassets */,
-				E6E61E1B1CAE32C3008298B6 /* LaunchScreen.storyboard */,
-				E6E61E1E1CAE32C3008298B6 /* Info.plist */,
-				E6E61E161CAE32C3008298B6 /* Autolayout.xcdatamodeld */,
 			);
 			path = Autolayout;
 			sourceTree = "<group>";
@@ -126,6 +122,18 @@
 				E6E61E341CAE32C3008298B6 /* Info.plist */,
 			);
 			path = AutolayoutUITests;
+			sourceTree = "<group>";
+		};
+		E6E61E401CAE32D1008298B6 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E6E61E0F1CAE32C3008298B6 /* AppDelegate.swift */,
+				E6E61E161CAE32C3008298B6 /* Autolayout.xcdatamodeld */,
+				E6E61E1E1CAE32C3008298B6 /* Info.plist */,
+				E6E61E1B1CAE32C3008298B6 /* LaunchScreen.storyboard */,
+				E6E61E191CAE32C3008298B6 /* Assets.xcassets */,
+			);
+			name = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
