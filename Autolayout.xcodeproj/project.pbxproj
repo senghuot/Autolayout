@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E683CA151CB47A77004443A0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E683CA141CB47A77004443A0 /* User.swift */; };
 		E6E61E101CAE32C3008298B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E61E0F1CAE32C3008298B6 /* AppDelegate.swift */; };
 		E6E61E121CAE32C3008298B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E61E111CAE32C3008298B6 /* ViewController.swift */; };
 		E6E61E151CAE32C3008298B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E61E131CAE32C3008298B6 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E683CA141CB47A77004443A0 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E6E61E0C1CAE32C3008298B6 /* Autolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autolayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E61E0F1CAE32C3008298B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6E61E111CAE32C3008298B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				E6E61E401CAE32D1008298B6 /* SupportingFiles */,
 				E6E61E111CAE32C3008298B6 /* ViewController.swift */,
 				E6E61E131CAE32C3008298B6 /* Main.storyboard */,
+				E683CA141CB47A77004443A0 /* User.swift */,
 			);
 			path = Autolayout;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E683CA151CB47A77004443A0 /* User.swift in Sources */,
 				E6E61E121CAE32C3008298B6 /* ViewController.swift in Sources */,
 				E6E61E181CAE32C3008298B6 /* Autolayout.xcdatamodeld in Sources */,
 				E6E61E101CAE32C3008298B6 /* AppDelegate.swift in Sources */,
@@ -499,6 +503,7 @@
 				E6E61E391CAE32C3008298B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6E61E3A1CAE32C3008298B6 /* Build configuration list for PBXNativeTarget "AutolayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +512,7 @@
 				E6E61E3C1CAE32C3008298B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6E61E3D1CAE32C3008298B6 /* Build configuration list for PBXNativeTarget "AutolayoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +521,7 @@
 				E6E61E3F1CAE32C3008298B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

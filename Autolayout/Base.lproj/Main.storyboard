@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nAt-c9-DUa">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="200" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nAt-c9-DUa">
                                 <rect key="frame" x="107" y="28" width="473" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -62,6 +62,9 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ibx-TF-BBK">
+                                <rect key="frame" x="20" y="179" width="335" height="401"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -88,10 +91,13 @@
                             <constraint firstItem="nAt-c9-DUa" firstAttribute="leading" secondItem="xbT-IC-QxI" secondAttribute="trailing" constant="8" symbolic="YES" id="l71-fT-hIs"/>
                             <constraint firstItem="nAt-c9-DUa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="mQE-6o-rqY"/>
                             <constraint firstItem="CNM-m1-elO" firstAttribute="width" secondItem="xbT-IC-QxI" secondAttribute="width" id="nTX-nl-Dew"/>
+                            <constraint firstItem="Ibx-TF-BBK" firstAttribute="top" secondItem="xXu-WN-aur" secondAttribute="bottom" constant="8" symbolic="YES" id="qBy-e0-XXU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ibx-TF-BBK" secondAttribute="bottom" constant="8" symbolic="YES" id="qXz-kK-SOl"/>
                             <constraint firstAttribute="leadingMargin" secondItem="CNM-m1-elO" secondAttribute="leading" id="x3C-wa-cK2"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="imageView" destination="Ibx-TF-BBK" id="xNQ-2W-dnH"/>
                         <outlet property="loginField" destination="nAt-c9-DUa" id="Umd-Ib-y5j"/>
                         <outlet property="passwordField" destination="9jH-K2-Z9V" id="cWl-kS-d3Y"/>
                         <outlet property="passwordLabel" destination="CNM-m1-elO" id="nTC-Xv-98m"/>
